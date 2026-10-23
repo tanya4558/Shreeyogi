@@ -13,7 +13,7 @@ export default function Contact() {
       <section className="shop-head">
         <div className="container">
           <p className="eyebrow">Say hello</p>
-          <h1>Contact us</h1>
+          <h1>Contact Shreeyogi<sup className="trademark">™</sup></h1>
         </div>
       </section>
 
@@ -35,6 +35,14 @@ export default function Contact() {
             <span className="contact-ico">💬</span>
             <div><b>WhatsApp</b><p>Chat with us instantly</p></div>
           </a>
+          <section className="trademark-summary" aria-labelledby="trademark-heading">
+            <h3 id="trademark-heading">Trademark details</h3>
+            <dl>
+              <div><dt>Brand</dt><dd>Shreeyogi™ (Device)</dd></div>
+              <div><dt>Classification</dt><dd>Class 16</dd></div>
+              <div><dt>Status</dt><dd>Proposed to be used</dd></div>
+            </dl>
+          </section>
         </div>
 
         <form className="contact-form" onSubmit={onSubmit}>

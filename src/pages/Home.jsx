@@ -11,7 +11,7 @@ export default function Home() {
       <section className="hero">
         <div className="container hero-inner">
           <div className="hero-copy">
-            <span className="pill">✦ Shreeyogi Enterprise</span>
+            <span className="pill">✦ Shreeyogi<sup className="trademark">™</sup> Enterprise</span>
             <h1>Everyday finds,<br /><span className="grad">beautifully</span> curated.</h1>
             <p>From art supplies to clever home essentials — discover products people love, delivered fast and ordered in a tap on WhatsApp.</p>
             <div className="hero-cta">

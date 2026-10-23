@@ -19,7 +19,7 @@ export default function Navbar() {
       <div className="nav container">
         <Link to="/" className="brand" onClick={() => setMenuOpen(false)}>
           <span className="brand-mark">S</span>
-          <span className="brand-text">{SHOP.name}<small>enterprise</small></span>
+          <span className="brand-text">{SHOP.name}<sup className="trademark">™</sup><small>enterprise</small></span>
         </Link>
         <nav className={`nav-links ${menuOpen ? 'open' : ''}`}>
           {links.map(([to, label]) => (

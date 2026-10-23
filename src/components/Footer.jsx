@@ -8,7 +8,7 @@ export default function Footer() {
         <div>
           <div className="brand footer-brand">
             <span className="brand-mark">S</span>
-            <span className="brand-text">{SHOP.name}<small>enterprise</small></span>
+            <span className="brand-text">{SHOP.name}<sup className="trademark">™</sup><small>enterprise</small></span>
           </div>
           <p className="footer-tag">Curated everyday essentials, delivered with care across India.</p>
         </div>
@@ -32,7 +32,7 @@ export default function Footer() {
         </div>
       </div>
       <div className="container footer-base">
-        <span>© {new Date().getFullYear()} {SHOP.name} Enterprise</span>
+        <span>© {new Date().getFullYear()} {SHOP.name}™ Enterprise</span>
         <span>Made for everyday living</span>
       </div>
     </footer>
